@@ -130,7 +130,7 @@ header .intro-text .skills {
 .navbar {
    
     font-family:Arial,sans-serif;
-    font-weight: 700;
+
 }
 
 .navbar a:focus {
@@ -164,14 +164,7 @@ section.success {
     background: #18bc9c;
 }
 
-section.success a,
-section.success a:hover,
-section.success a:focus,
-section.success a:active,
-section.success a.active {
-    outline: 0;
-    color: #2c3e50;
-}
+
 
 @media(max-width:767px) {
     section {
@@ -206,9 +199,7 @@ section.success a.active {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
-}
+
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
@@ -249,14 +240,6 @@ section.success a.active {
     transition: all .3s ease-in-out;
 }
 
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    border: solid 2px #fff;
-    color: #18bc9c;
-    background: #fff;
-}
 
 .floating-label-form-group {
     position: relative;
@@ -408,9 +391,7 @@ footer .footer-below {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
-    opacity: .3;
-}
+
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
